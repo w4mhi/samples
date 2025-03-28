@@ -1,0 +1,56 @@
+# Ignore bin and obj folders
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+.vs/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.pdb
+*.tmp
+*.log
+*.so
+*.dylib
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Python files
+*.pyc
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Build files
+dist/
+build/
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore generated files
+*.min.js
+*.min.css
